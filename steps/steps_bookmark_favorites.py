@@ -32,10 +32,6 @@ def step_then_book_is_favorited(context):
     expect(star).to_have_class(re.compile(r'\bstar\b.*\bselected\b'))
 
 
-@when(u'användaren klickar på knappen "Mina böcker"')
-def step_when_click_my_books(context):
-    my_books_button = context.page.get_by_test_id("favorites")
-    my_books_button.click()
 
 @then(u'ska boken "100 sätt att undvika måndagar" visas i listan på sidan "Mina Böcker"')
 def step_then_book_in_my_books(context):

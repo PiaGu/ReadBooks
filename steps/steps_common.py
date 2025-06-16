@@ -20,3 +20,8 @@ def step_when_add_book_button(context):
     add_book_button = context.page.get_by_test_id("add-book")
     add_book_button.click()
     context.add_book_button = add_book_button
+
+@when(u'användaren klickar på knappen "Mina böcker"')
+def step_when_click_my_books(context):
+    my_books_button = context.page.get_by_test_id("favorites")
+    my_books_button.click()

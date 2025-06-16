@@ -7,6 +7,7 @@
 #fliken "Mina böcker" så att jag inte behöver se böcker som jag redan har läst.
 
 @favorit_add
+
   Feature: Favoriter
 
     Scenario: Favoritmarkera böcker
