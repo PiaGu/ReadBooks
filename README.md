@@ -33,6 +33,6 @@ behave
 behave --tags="@favorit_add"
 
 
-
+(Jag tog bort headed mode men något problem med headless shell och min mac.Så jag drog ner slow_mo till 10 så går det snabbare
 
 

@@ -18,3 +18,12 @@
       Then favoritmarkeras boken med ett hjärta
       When användaren klickar på knappen "Mina böcker"
       Then ska boken "100 sätt att undvika måndagar" visas i listan på sidan "Mina Böcker"
+
+   # Scenario: Avmarkera favoritbok
+   #   Given att användaren är på sidan "Läslistan"
+   #   When användaren klickar på hjärtat för boken "100 sätt att undvika måndagar"
+   #   Then favoritmarkeras boken med ett hjärta
+   #   When användaren klickar på hjärtat för boken "100 sätt att undvika måndagar" igen
+   #   Then avmarkeras boken så att hjärtat inte längre är markerat
+   #   When användaren klickar på knappen "Mina böcker"
+   #   Then ska boken "100 sätt att undvika måndagar" inte visas i listan på sidan "Mina Böcker"
