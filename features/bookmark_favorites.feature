@@ -11,8 +11,6 @@
 
     Scenario: Favoritmarkera böcker
       Given att användaren är på sidan "Läslistan"
-      And användaren klickar på sidan "Katalog"
-      And boken med titeln "100 sätt att undvika måndagar" visas i listan
       When användaren hovrar över boken "100 sätt att undvika måndagar"
       Then visas ett hjärta i början av raden för boken
       When användaren klickar på hjärtat för boken "100 sätt att undvika måndagar"

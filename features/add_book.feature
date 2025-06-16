@@ -7,8 +7,7 @@
 
   Feature: Lägga till en ny bok
     För att hålla ordning på vilka böcker jag läst eller vill läsa
-    Som användare
-    Vill jag kunna lägga till nya titlar med både titel och författare
+    Som användare vill jag kunna lägga till nya titlar med både titel och författare
 
     Scenario: Lägga till en ny bok med både titel och författare
       Given att användaren är på sidan "Läslistan"
